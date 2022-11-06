@@ -14,7 +14,6 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan(basePackages = "org.itsci.cosmetic")
 public class WebConfig implements WebMvcConfigurer {
     @Bean
-
     public ViewResolver viewResolver(){
         InternalResourceViewResolver viewResolver = new
                 InternalResourceViewResolver();
