@@ -8,7 +8,7 @@ import javax.validation.constraints.Pattern;
 import java.util.List;
 
 @Entity
-@Table(name = "shops1")
+@Table(name = "shopscosmetic")
 public class Shop {
     @Id
     @Column(name = "id", nullable = false)
@@ -21,7 +21,7 @@ public class Shop {
     private List<Product> products;
 
     @NotNull
-    @Pattern(regexp = "^SH[0-9]{3}")
+    @Pattern(regexp = "^S[0-9]{4}")
     @Column(name = "code", length = 10, nullable = false, unique = true)
     private String code;
     @NotNull

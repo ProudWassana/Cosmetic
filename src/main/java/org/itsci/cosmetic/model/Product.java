@@ -8,7 +8,7 @@ import javax.validation.constraints.Pattern;
 import java.util.List;
 
 @Entity
-@Table(name = "products")
+@Table(name = "productscosmetic")
 public class Product {
     @NotNull
     @ManyToOne
@@ -26,7 +26,7 @@ public class Product {
     int id;
 
     @NotNull
-    @Pattern(regexp = "^PD[0-9]{3}")
+    @Pattern(regexp = "^[A-Z]{1,}[0-9]{3}")
     @Column(length = 10, nullable = false, unique = true)
     private String code;
     @NotNull
