@@ -1,0 +1,106 @@
+nav{
+    float: right;
+    margin-left: 819px;
+    margin-top: 37px;
+    position: absolute;
+}
+.h_header{
+    position: absolute;
+    margin-left: 171px;
+    font-size: 31px;
+}
+
+.area-box1{
+    height: 279px;
+    width: 345px;
+    background-color: #ffebb9;
+    margin-top: 241px;
+    position: absolute;
+    margin-left: 216px;
+}
+
+.area-box2{
+    height: 300px;
+    width: 300px;
+    background-color: #6dc4a9;
+    margin-top: 195px;
+    position: absolute;
+    margin-left: 242px;
+}
+
+.area-box3{
+    height: 327px;
+    width: 429px;
+    background-color: white;
+    margin-top: 195px;
+    position: absolute;
+    margin-left: 848px;
+}
+
+.header-box{
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: -12px;
+}
+
+.home-hr{
+    height: 56px;
+    position: absolute;
+    width: 11px;
+    background-color: black;
+    margin-left: 815px;
+    margin-top: 193px;
+    border: none;
+}
+
+.home-ft{
+    margin-top: 643px;
+    position: absolute;
+    margin-left: 600px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.square-box{
+    position: absolute;
+    margin-top: 218px;
+    margin-left: -28px;
+    height: 283px;
+    width: 39px;
+    background-color: #47af85;
+    border-radius: 20px;
+}
+
+.square-box1{
+    position: fixed;
+    margin-top: 218px;
+    margin-left: 1525px;
+    height: 283px;
+    width: 39px;
+    background-color: #47af85;
+    border-radius: 20px;
+}
+
+.big-box{
+    height: 461px;
+    width: 1300px;
+    position: absolute;
+    background-color: white;
+    border: none;
+    margin-left: 108px;
+    margin-top: 134px;
+    border-radius: 11px;
+    box-shadow: #cecece 5px 5px 10px 3px;
+}
+
+.nav-shadow{
+    height: 137px;
+    width: 100%;
+    position: fixed;
+    border-radius: 51px;
+    box-shadow: #cecece 2px 1px 9px 1px;
+    margin-top: -51px;
+}
