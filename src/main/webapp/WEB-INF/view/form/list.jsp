@@ -14,7 +14,7 @@
 </head>
 <body>
 <header>
-    <h2>เว็บไซต์คลินิกรักษาไช้</h2>
+    <h2>PharmarHome</h2>
 </header>
 
 <section>
@@ -23,7 +23,7 @@
         <h1>${title}</h1>
         <div class="container">
             <security:authorize access="hasRole('MANAGER')">
-                <input type="button" class="btn btn-primary" value="แจ้งไข้"
+                <input type="button" class="btn btn-primary" value="แจ้งอาการ"
                        onclick="window.location.href='${pageContext.request.contextPath}/form/create'; return false;"class="add-button"/>
             </security:authorize>
             <table class="table table-hover">

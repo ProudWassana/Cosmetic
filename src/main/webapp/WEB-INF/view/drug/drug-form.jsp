@@ -6,14 +6,14 @@
 </head>
 <body>
 <header>
-    <h2>เว็บไซต์คลินิกรักษาไช้</h2>
+    <h2>PharmarHome</h2>
 </header>
 
 <section>
     <jsp:include page="/WEB-INF/view/layouts/nav.jsp"/>
     <article>
         <div id="header"><h1>${title}</h1></div><div class="container">
-        <div id="container"><i>กรอกข้อมูลอาการ</i><br><br><form:form action="${pageContext.request.contextPath}/drug/save"
+        <div id="container"><i>กรอกข้อมูลยา</i><br><br><form:form action="${pageContext.request.contextPath}/drug/save"
                                                                                                              modelAttribute="drug"
                                                                                                              method="POST"><form:hidden
                 path="id"/>

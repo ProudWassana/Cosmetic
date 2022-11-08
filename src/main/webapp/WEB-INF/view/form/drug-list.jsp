@@ -5,7 +5,7 @@
 <link href="${pageContext.request.contextPath}/assets/css/style.css" rel="stylesheet"></head>
 <body>
 <header>
-    <h2>เว็บไซต์คลินิกรักษาไช้</h2>
+    <h2>PharmarHome</h2>
 </header>
 
 <section>
