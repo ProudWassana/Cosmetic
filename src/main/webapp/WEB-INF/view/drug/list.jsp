@@ -17,7 +17,7 @@
   <article>
     <h1>${title}</h1>
     <div class="container">
-      <input type="button" class="btn btn-primary" value="เพิ่มเจ้าหน้าที่"
+      <input type="button" class="btn btn-primary" value="เพิ่มตารางยา"
              onclick="window.location.href='${pageContext.request.contextPath}/drug/create'; return false;"class="add-button"/>
       <table class="table table-hover">
         <thead>
