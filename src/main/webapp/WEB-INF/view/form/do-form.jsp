@@ -28,7 +28,7 @@
                     <tbody>
                     <tr>
                         <td><label>รหัสการรักษา :</label></td>
-                        <td><form:input class="form-control" path="code"/><form:errors path="code" cssClass="error"/></td>
+                        <td><form:input class="form-control" path="code"/><form:errors path="code" cssClass="error"/> </td>
                     </tr>
                     <tr>
                         <td><label>ชื่อ - นามสกุล :</label></td>
@@ -54,8 +54,8 @@
                     </tr>
                     <tr>
                         <td><label></label></td>
-                        <td><input type="submit" value="บันทึก" class="btn btn-success"/>
-                            <input type="button" value="ลบ" class="btn btn-danger"
+                        <td><input type="submit" value="บันทึก" class="btn btn-danger"/>
+                            <input type="button" value="ลบ" class="btn btn-info"
                                    onclick="if((confirm('คุณแน่ใจหรือว่าต้องการลบข้อมูลอาการนี้?'))) { window.location.href='${pageContext.request.contextPath}/form/${form.id}/delete'; return false; }"
                                    />
                             <security:authorize access="hasRole('ADMIN')">
@@ -85,7 +85,7 @@
                     <tbody>
                     <tr>
                         <td><label>รหัสแบบฟอร์ม :</label></td>
-                        <td><form:input class="form-control" path="code" disabled="true"/><form:errors path="code" cssClass="error"/></td>
+                       <td><form:input class="form-control" path="code" disabled="true"/><form:errors path="code" cssClass="error"/></td>
                     </tr>
                     <tr>
                         <td><label>ชื่อ - นามสกุล :</label></td>
@@ -112,8 +112,8 @@
                     <tr>
                         <td><label></label></td>
                         <td>
-                            <c:if test="${form.id > 0}"><input type="button" class="btn btn-info" value="เพิ่ม" onclick="window.location.href='${pageContext.request.contextPath}/form/${form.id}/view-drugs';return false;"class="add-button"/></c:if>
-                            <input type="button" class="btn btn-danger" value="ลบ"
+                            <c:if test="${form.id > 0}"><input type="button" class="btn btn-success" value="เพิ่ม" onclick="window.location.href='${pageContext.request.contextPath}/form/${form.id}/view-drugs';return false;"/></c:if>
+                            <input type="button" class="btn btn-info" value="ลบ"
                                    onclick="if((confirm('คุณแน่ใจหรือว่าต้องการลบข้อมูลแบบฟอร์มนี้?'))) { window.location.href='${pageContext.request.contextPath}/form/${form.id}/delete'; return false; }"
                                    class="cancel-button"/>
                             <input type="button" class="btn btn-warning" value="ย้อนกลับ"
